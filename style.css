@@ -3,8 +3,9 @@ body, html {
     height: 100%;
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
-    color: #777;
+    color: rgb(43, 43, 43);
   }
+
   
     .bgimg-2, .bgimg-3 {
     position: relative;
@@ -58,6 +59,9 @@ body, html {
     text-transform: uppercase;
     font: 20px "Lato", sans-serif;
     color: #111;
+  }
+  footer{
+    background-color: rgb(43, 43, 43);
   }
   
   /* Turn off parallax scrolling for tablets and phones */
@@ -115,4 +119,24 @@ body, html {
   border: 10px solid rgba(110, 103, 103, 0.226);
   opacity: 0.9;
 }
+.text1{
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 240px;
+  height: auto;
   
+}
+.textm{
+  color: black;
+  font-weight: bold;
+  size: 10px;
+}
+.list-inline-item{
+  float: left;
+  padding: 1px;
+  width: auto;
+  margin-right: 5px;
+}
+.ftp{
+  align-items: center;
+}
