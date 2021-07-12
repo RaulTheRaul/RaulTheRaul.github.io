@@ -1,0 +1,118 @@
+/*MAIN DOCUMENT CSS*/
+html{
+  background-color: rgb(255, 255, 255);
+  scroll-behavior: smooth;
+}
+
+h1 {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+  }
+
+p{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+img {
+  display: block;
+}
+
+
+
+
+
+
+/* MAIN PARAGRAPHS CSS STYLE*/
+.Intro{
+
+  background-color: white;
+
+  padding: 5px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+section{
+  padding: 40px;
+  opacity: 0;
+  transition: opacity 5s;
+  transform: translate(0, 20px); transition: all 1s;
+}
+
+section.visible { 
+  opacity: 1;
+}
+
+/*IMAGES, TEXT AND OTHER*/
+.MainBGDIV{
+  height: auto;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+}
+.mainbg{
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: inline-block;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  font-weight: bolder;
+  font-size: 75px;
+  border: white;
+  border-width: 10px;
+  border-style: double;
+  background-color: rgba(128, 128, 128, 0.664);
+}
+.button2{
+  z-index: 1;
+  background-color: rgb(255, 255, 255); /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0px; /* Hide the navbar 50 px outside of the top view */
+  padding-left: 1px;
+  width: 100%; /* Full width */
+  margin-bottom: 0px;
+}
+.column{
+  float: left;
+  width: fit-content;
+  padding: 10px;
+  width: 33.33%;
+}
+.row{
+  align-items: center;
+  text-align: center;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.img1{
+  height: 300px;
+  width: 400px;
+}
+.img2{
+  height: 300px;
+  width: 400px;
+}
+.img3{
+  height: 300px;
+  width: 400px;
+}
+.videosection{
+  background:black;
+}
+
+
+
